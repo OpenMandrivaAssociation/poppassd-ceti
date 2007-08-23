@@ -1,6 +1,6 @@
 %define name poppassd-ceti
 %define version 1.8.5
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: An Eudora and NUPOP change password server
 Name: %{name}
