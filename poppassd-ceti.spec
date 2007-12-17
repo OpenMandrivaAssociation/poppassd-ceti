@@ -17,7 +17,6 @@ Provides: poppassd
 Requires: pam net-tools setup tcp_wrappers sysklogd
 BuildRequires: pam-devel
 Group: Networking/Remote access
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
 Poppassd is a daemon allowing users to change their password via Eudora 
