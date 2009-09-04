@@ -1,7 +1,7 @@
 Summary:	An Eudora and NUPOP change password server
 Name:		poppassd-ceti
 Version:	1.8.5
-Release:	%mkrel 3
+Release:	%mkrel 4
 Group:		Networking/Remote access
 License:	Distributable
 URL:		http://echelon.pl/pubs/poppassd.html
