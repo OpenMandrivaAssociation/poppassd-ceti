@@ -1,0 +1,11 @@
+--- poppassd_1.8/Makefile~	Fri Jul  6 19:46:41 2001
++++ poppassd_1.8/Makefile	Fri Jul  6 19:47:04 2001
+@@ -6,7 +6,7 @@
+ 	$(CC) poppassd.c -o poppassd -lpam -ldl $(FLAGS) 
+ 
+ install: poppassd
+-	install -g bin -o root -m 500 poppassd $(BINDIR)
++	install -m 500 poppassd $(BINDIR)
+ 
+ clean:
+ 	rm -f *.o *~* core Makefile.new Makefile.bak poppassd

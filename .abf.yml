@@ -1,0 +1,4 @@
+sources:
+  "poppassd-1.8.5.tar.bz2:"	5de75e3e5b4179e5516884426ebd0746be255ea0
+  "poppassd.pam.bz2:"	97854ddd58b770e02656a6e4047b5f80fe769bee
+  "poppassd.xinetd.bz2:"	9a3951a8d5193e1e0dce7eb1678b3e00d2948322

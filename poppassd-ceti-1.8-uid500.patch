@@ -1,0 +1,11 @@
+--- poppassd_1.8/poppassd.c~	Sun Mar 10 22:04:15 2002
++++ poppassd_1.8/poppassd.c	Sun Mar 10 22:04:15 2002
+@@ -37,7 +37,7 @@
+  
+ #define VERSION "1.8-ceti"
+ #define BAD_PASS_DELAY 	3   /* delay in seconds after bad 'Old password' */
+-#define POP_MIN_UID		100 /* minimum UID which is allowed to change
++#define POP_MIN_UID		500 /* minimum UID which is allowed to change
+ 							   password via poppassd */
+ #define MAX_LEN_USERNAME	"16"	/* maximum length of username */
+ #define MAX_LEN_PASS		"126"	/* maximum length of password */
