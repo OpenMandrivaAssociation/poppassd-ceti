@@ -14,6 +14,7 @@ Provides:	poppassd
 Requires:	net-tools
 Requires:	pam
 Requires:	tcp_wrappers
+BuildRequires:	make
 BuildRequires:	pam-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
